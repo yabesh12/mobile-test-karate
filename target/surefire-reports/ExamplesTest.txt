@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.722 s <<< FAILURE! - in ExamplesTest
+testSample[1][1]  Time elapsed: 1.577 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+driver config / start failed: webdriver session create status 500, {"status":13,"value":{"message":"An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of '/home/yabesh/.npm-packages/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in [\"/usr/local/android-studio/platform-tools/apksigner.jar\",\"/usr/local/android-studio/emulator/apksigner.jar\",\"/usr/local/android-studio/cmdline-tools/latest/bin/apksigner.jar\",\"/usr/local/android-studio/tools/apksigner.jar\",\"/usr/local/android-studio/tools/bin/apksigner.jar\",\"/usr/local/android-studio/apksigner.jar\"]. Do you have Android Build Tools installed at '/usr/local/android-studio'?"},"sessionId":null}, options: {type=android, webDriverPath=/wd/hub, start=false, httpConfig={readTimeout=120000}, target=null, webDriverSession={desiredCapabilities={app=/home/yabesh/Downloads/UiDemo.apk, newCommandTimeout=300, platformVersion=9.0, platformName=Android, connectHardwareKeyboard=true, deviceName=emulator-554, avd=Nexus_4_API_22, automationName=UiAutomator2}}}
+classpath:test/test_features/android/android.feature:28
+
